@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(href="/styles/styles.css", rel="stylesheet")
+        title Guess Mine
+    body
+        .loginBox
+            form#jsLogin
+                input(type="text", placeholder="Whats your nickname")        
+        .gameContainer#jsGame           
+            .chat
+                ul.chat__messages#jsMessages
+                form.chat__form#jsSendMsg
+                    input(type="text", placeholder="Write a message")
+        script.
+            window.events = !{events}
+        script(src="/socket.io/socket.io.js")
+        script(src="/js/main.js")
