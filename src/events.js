@@ -10,7 +10,12 @@ const events = {
   beganPath: "beganPath",
   strokedPath: "strokedPath",
   fill: "fill",
-  filled: "filled"
+  filled: "filled",
+  playerUpdate: "playerUpdate",
+  gameStarted: "gameStarted",
+  leaderNotif: "leaderNotif",
+  gameEnded: "gameEnded",
+  gameStarting: "gameStarting"
 };
 
 export default events;
