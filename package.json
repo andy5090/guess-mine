@@ -15,7 +15,7 @@
     "morgan": "^1.9.1",
     "nodemon": "^1.19.2",
     "pug": "^2.0.4",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   },
   "scripts": {
     "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
